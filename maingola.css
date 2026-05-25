@@ -539,7 +539,7 @@ footer {
 		backdrop-filter: blur(6px);
 	}
 	.navigationPane img {
-		height: 36px;
+		height: 38px;
 		margin: 0 0 5px 0;
 	}
 
@@ -618,11 +618,14 @@ footer {
 	}
 
 	.carousel-logo {
-		height: 45px;
+		height: 65px;
 	}
-
+	.carousel-viewport {
+		gap: 10px;
+	}
 	.track-left,
 	.track-right {
 		animation-duration: 14s;
+		gap: 10px;
 	}
 }
