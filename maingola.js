@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const basePath = "./COMPANY_LOGOS/";
+    const basePath = "./";
     const logos = [
         "Richmont.jpeg", 
         "NDB.jpg", 
