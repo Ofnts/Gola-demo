@@ -25,7 +25,7 @@ body {
 	flex-direction: row;
 	flex-shrink: 0;
 	height: 400px;
-	background-image: url("./images/farm1.png");
+	background-image: url("./farm1.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -42,7 +42,7 @@ body {
 	height: 475px;
 	width: calc(100vw - 2px);
 	z-index: 1;
-	background-image: url("./images/farm2.png");
+	background-image: url("./farm2.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
