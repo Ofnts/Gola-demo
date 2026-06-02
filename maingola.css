@@ -428,20 +428,15 @@ footer {
 		flex-direction: row;
 		align-items: center;
 		justify-content: center;
-
 		width: 100%;
 		height: auto;
-
 		padding: 12px 15px;
 		box-sizing: border-box;
-
 		background: var(--primary-white);
 		backdrop-filter: blur(6px);
-
 		position: fixed;
 		top: 0;
 		left: 0;
-
 		gap: 10px;
 	}
 
@@ -514,7 +509,7 @@ footer {
 	.navigationPane {
 		position: relative;
 		width: 100%;
-		height: 350px;
+		height: 300px;
 		display: flex;
 		flex-direction: column;
 		background-image: url("./farm1.png");
@@ -539,7 +534,7 @@ footer {
 		backdrop-filter: blur(6px);
 	}
 	.navigationPane img {
-		height: 38px;
+		height: 40px;
 		margin: 0 0 5px 0;
 	}
 
@@ -625,7 +620,14 @@ footer {
 	}
 	.track-left,
 	.track-right {
-		animation-duration: 14s;
+		animation-duration: 12s;
 		gap: 10px;
 	}
+	footer > * {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        gap: 20px;
+        flex-wrap: wrap;
+    }
 }
