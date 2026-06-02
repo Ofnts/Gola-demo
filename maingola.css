@@ -524,11 +524,10 @@ footer {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
-		justify-content: center;
+		justify-content: flex-start;
 		width: 100%;
 		height: auto;
 		padding: 15px 0px;
-		box-sizing: border-box;
 		gap: 5px;
 		background: rgba(255, 255, 255, 0.95);
 		backdrop-filter: blur(6px);
