@@ -3,6 +3,8 @@
 	--primary-green-color: #2ecc71;
 	--primary-white: #ffffff;
 	--primary-black: #000000;
+	--content-width: 1200px;
+	--content-padding: 5px;
 }
 
 /* --- Global Resets & Typography Foundations --- */
@@ -23,34 +25,19 @@ body {
 /* --- Navigation Pane & Header Image Canvas --- */
 .navigationPane {
 	margin: 0;
+	position: relative;
 	display: flex;
 	flex-direction: row;
 	flex-shrink: 0;
 	height: 400px;
-	background-image: url("./farm1.png");
+	background-image: url("./images/farm1.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	position: relative;
 	background-blend-mode: normal;
 	border-bottom: 4px solid var(--primary-green-color);
 	overflow: visible;
 }
-/*.tractor {
-	position: absolute;
-	display: flex;
-	top: 0;
-	left: -476px;
-	height: 475px;
-	width: calc(100vw - 2px);
-	z-index: 1;
-	background-image: url("./farm2.png");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-blend-mode: normal;
-	margin: 2px;
-}*/
 .navigationPane ul {
 	margin: 0;
 	padding: 0;
@@ -290,7 +277,7 @@ footer {
 	align-items: center;
 	justify-content: space-between;
 	padding: 30px 10%;
-	min-height: 100px;
+	height: auto;
 	background-color: var(--primary-background-color);
 	color: #94a3b8;
 	box-sizing: border-box;
@@ -437,6 +424,7 @@ footer {
 		position: fixed;
 		top: 0;
 		left: 0;
+
 		gap: 10px;
 	}
 
@@ -512,7 +500,7 @@ footer {
 		height: 300px;
 		display: flex;
 		flex-direction: column;
-		background-image: url("./farm1.png");
+		background-image: url("./images/farm1.png");
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -611,13 +599,13 @@ footer {
 	.media-overlay span {
 		font-size: 0.95rem;
 	}
-
-	.carousel-logo {
-		height: 65px;
-	}
 	.carousel-viewport {
 		gap: 10px;
 	}
+	.carousel-logo {
+		height: 65px;
+	}
+
 	.track-left,
 	.track-right {
 		animation-duration: 12s;
