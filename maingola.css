@@ -605,7 +605,6 @@ footer {
 	.carousel-logo {
 		height: 65px;
 	}
-
 	.track-left,
 	.track-right {
 		animation-duration: 12s;
@@ -617,5 +616,8 @@ footer {
         align-items: center;  
         gap: 20px;
         flex-wrap: wrap;
+    }
+	.address {
+    	align-items: flex-start;
     }
 }
